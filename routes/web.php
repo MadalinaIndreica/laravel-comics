@@ -19,7 +19,9 @@ Route::get('/', function () {
 
 
 Route::get('prodotti', function () {
-    return view('products');
+    $books = config('comics.books');
+   
+    return view('products', compact('books'));
 })->name('products');
 
 

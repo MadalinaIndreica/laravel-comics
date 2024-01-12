@@ -1,3 +1,9 @@
 @use './partials/header' as *;
 @import "~bootstrap/scss/bootstrap";
 
+img {
+    max-width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top;
+}
