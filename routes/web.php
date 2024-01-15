@@ -28,3 +28,4 @@ Route::get('prodotti', function () {
 Route::get('notizie', function () {
     return view('news');
 })->name('news');
+

@@ -12,6 +12,21 @@
                 <li>
                     <a href="{{ route('news') }}">News</a>
                 </li>
+                <li>
+                    <a href="">Comics</a>
+                </li>
+                <li>
+                    <a href="">Movies</a>
+                </li>
+                <li>
+                    <a href="">Tv</a>
+                </li>
+                <li>
+                    <a href="">Games</a>
+                </li>
+                <li>
+                    <a href="">Videos</a>
+                </li>
             </ul>
 
         </nav>

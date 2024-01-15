@@ -12,7 +12,7 @@
 <body>
     {{-- HEADER --}}
     @include('partials.header')
-
+    @include('partials.hero')
     <main>
         @yield('content')
     </main>
